@@ -1,4 +1,12 @@
 @import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input{ @apply w-full rounded border px-3 py-2; }
+.btn{ @apply rounded border px-3 py-1 text-sm bg-white hover:bg-gray-50; }
+.card{ @apply rounded border bg-white p-3; }
+
 
 :root {
   --background: #ffffff;
