@@ -10,9 +10,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <div className="max-w-3xl mx-auto flex items-center justify-between">
             <h1 className="font-semibold">Self-Manage</h1>
             <nav className="text-sm space-x-4">
-              <a href="/" className="hover:underline">Home</a>
-              <a href="/tasks" className="hover:underline">Tasks</a>
-              <a href="/habits" className="hover:underline">Habits</a>
+              <link href="/" className="hover:underline">Home</link>
+              <link href="/tasks" className="hover:underline">Tasks</link>
+              <link href="/habits" className="hover:underline">Habits</link>
             </nav>
           </div>
         </header>
