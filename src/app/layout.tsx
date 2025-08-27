@@ -14,15 +14,9 @@ export default function RootLayout({
           <div className="max-w-3xl mx-auto flex items-center justify-between">
             <h1 className="font-semibold">Self-Manage</h1>
             <nav className="text-sm space-x-4">
-              <link href="/" className="hover:underline">
-                Home
-              </link>
-              <link href="/tasks" className="hover:underline">
-                Tasks
-              </link>
-              <link href="/habits" className="hover:underline">
-                Habits
-              </link>
+               <Link href="/" className="hover:underline">Home</Link>
+              <Link href="/tasks" className="hover:underline">Tasks</Link>
+              <Link href="/habits" className="hover:underline">Habits</Link>
             </nav>
           </div>
         </header>
